@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBC Laboratory | Kelompok 1 Big Data</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="dummy.html"><img src="logo.png "></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                 <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">CONTACT</a></li>
+                 </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Welcome To <br>Group 1 Big Data's Dashboard</h1>
+            <p>Completing all of the MBC's assignments are fun for us, cuz we are #PTST. Undergraduate Telecommunication Engineering is our major <br>and we are proud of it! What about you, Are you proud of your main major?</p>
+            <a href="" class="hero-btn">Visit Us to Know More</a>
+        </div>
+    </section>
+    
+    <!-- About Us -->
+    <section class="about_us">
+        <h1>About Us</h1>
+        <p>Just three random ordinary guys that wanna be a research assitant at MBC Laboratory</p>
+        <div class="row">
+            <div class="member">
+                <img src="fery.png">
+                <div class="layer">
+                    <h3>FERY HAFIDZ PRASETYO</h3>
+                </div>
+            </div>
+            <div class="member">
+                <img src="jav.png">
+                <div class="layer">
+                    <h3>JAVI AKBAR PRABOWO</h3>
+                </div>
+            </div>
+            <div class="member">
+                <img src="mauri.png">
+                <div class="layer">
+                    <h3>MAURITIUS MANURUNG</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action-->
+    <section class="cta">
+        <h1>Enroll Us to Become Part of the <br>MBC Laboratory Research Assitants</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h4>Our Contact</h4>
+        <p>Reach us on our social media</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by Group 1 Big Data | &copy; 2023.</p>
+    </footer>
+
+    <!-- JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
